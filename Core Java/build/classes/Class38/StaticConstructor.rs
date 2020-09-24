@@ -1,0 +1,2 @@
+Class38.StaticCons
+Class38.StaticConstructor

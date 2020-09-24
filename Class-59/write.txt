@@ -1,0 +1,2 @@
+This is the content to write intoo file
+This is the second content to write into file
