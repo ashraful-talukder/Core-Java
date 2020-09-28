@@ -1,0 +1,22 @@
+This class is all about multithreading and multitasking theory.
+
+
+::>| Multithreading in Java is a process of executing multiple threads simultaneously. Thread is basically a lightwight sub-process, a smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking. But we use multithreading than multiprocessing because threads share a common memory area. They don't allocate separate memory area so saves memory, and context-switching between the threads takes less time than process. Java Multithreading is mostly used in games, animation, etc.
+::>| Multitasking is a process of executing multiple tasks simultaneously. We use multitasking to utilize the CPU.
+
+Advantages of java multi threading:
+1) It doesn't block the user because threads are independent and you can perform multiple operations at same time
+2) You can perform many operations together so it saves time
+3) Threads are independent so it doesn't affect other threads if exception occur in a single thread
+
+There are two types of multitasking and those are:
+1) Process-based multitasking (Multiprocessing)
+2) Thread-based multitasking (Multithreading)
+
+::>| Process-based Multitasking(Multiprocessing): Each process have its own address in memory i.e. each process allocates separate memory area. Process is heavyweight. Cost of communication the process is high. Switching from one process to another require some time for saving and loading registers memory maps, updating lists etc.
+::>| Thread-based Multitasking(Multithreading): Threads share the same address space. Thread is lightweight. Cost of communication between the thread is low.
+::>| Threa in Java: A thread is a lightweight sub process, a smallest unit of processing. It is a separate path of execution. Threads are independent. if there occurs exception in one thread, it doesn't affect other threads. It shares a common memory area.
+
+There are two ways to create a thread: 
+1) By extending Thread class
+2) By implementing Runnable interface
