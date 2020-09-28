@@ -9,8 +9,8 @@ public class Tick implements Runnable {
                 System.out.print("Tick ");
                 Thread.sleep(500);
                 synchronized (Core.LOCK) {
-                    Core.LOCK.notify();
-                    Core.LOCK.wait();
+                    Core.LOCK.notify(); //notify tock, it's his turn
+                    Core.LOCK.wait(); //and wait until tock notify you for your turn
                 }
             }
         } catch (InterruptedException ie){
