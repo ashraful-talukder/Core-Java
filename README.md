@@ -32,17 +32,17 @@
 <p>Class - 28 : Memory Management</p>
 <p>Class - 29 : String Pool</p>
 <p>Class - 30 : Compile with javap Options</p>
-<p>Class - 31 : Use of toString method</p>
+<p>Class - 31 : Use of toString Method</p>
 <p>Class - 32 : Enum</p>
 <p>Class - 33 : Enum vs Constant</p>
-<p>Class - 34 : Variable length arguments</p>
-<p>Class - 35 : Short-circuit operator</p>
+<p>Class - 34 : Variable Length Arguments</p>
+<p>Class - 35 : Short-circuit Operator</p>
 <p>Class - 36 : Encapsulation</p>
 <p>Class - 37 : Singleton Pattern</p>
 <p>Class - 38 : Static Constructor</p>
 <p>Class - 39 : Exception Handling Basic</p>
 <p>Class - 40 : Exception Printing</p>
-<p>Class - 41 : Use of finally block</p>
+<p>Class - 41 : Use of Finally Block</p>
 <p>Class - 42 : Exception throw-throws</p>
 <p>Class - 43 : Exception Propagation</p>
 <p>Class - 44 : Exception Overridden Rule</p>
