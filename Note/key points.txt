@@ -1,0 +1,217 @@
+JRE  : Java Runtime Environment.
+JDK  : Java Development Kit.
+JVM  : Java Virtual Machine.
+API  : Application Programming Interface.
+J2ME : Java Micro Edition. [2 stands for version]
+J2SE : Java Standard Edition. [2 stands for version start]
+AWT  : Abstract Window Toolkit.
+EJB  : Enterprise Java Bin.
+RMI  : Remote Method Invocation.
+
+There are mainly 4 types of application we can create using java.
+1) Standalone application
+2) Web application
+3) Enterprise application
+4) Mobile application
+
+JVM performs following main tasks:
+1) Loads code
+2) Verifies code
+3) Executes code
+4) Provides runtime environment
+
+There are two types of data type in Java and those are:
+1) Primitive type [boolean, byte, char, short, int, long, float, double]
+2) Class type
+
+There are two types of modifier in Java and those are:
+1) Access modifier
+2) Non-access modifier
+
+we can initialize a variable with three ways and those are:
+1) Using constructor.
+2) Using a method.
+3) Using an explicit method.
+
+There are two types of data stored memory avaiable in Java and those are:
+1) Stack memory
+2) Heap memory
+
+There are two types global variables and those are:
+1) Static or class variable
+2) Non-static or object variable
+
+There are three ways to initialize field variables and those are:
+1) Initialization using default value
+2) Initialization using explicit value /*class10*/
+3) Initialization using constructor
+
+For method overloading we need any of the following change between methods' signature:
+1) Types of parameter
+2) Number of parameter
+3) Sequence of parameter
+
+There are four types of access modifier and those are:
+1) Public {same class, same package, subclass, universe}
+2) Private {same class}
+3) Protected {same class, same package, subclass}
+4) Default {same class, same package} [package level accessiblity]
+
+Criteria to choose among String, StringBuffer and StringBuilder:
+1) If your text is not going to change use a String class because a String object is immutable.
+2) If your text can change and will only be accessed from a single thread, use a StringBuilder because StringBuilder is unsynchronized.
+3) If your text can change and will be accessed from multiple threads, use a StringBuffer because StringBuffer is synchornous.
+
+An object has three properties and those are:
+1) Identity [Object's name]
+2) State [Properties like variable and values]
+3) Behaviour [Methods]
+
+There are two types of nested class in java and those are:
+1) Static Nested Class
+2) Non-static Nested Class [Inner class]
+
+Non-static nested class are three in types and those are:
+1) Member inner class [inside a class and outside of any method]
+2) Annonymous inner class [generally uses within abstract class and interface]
+3) Local inner class [inside a method]
+
+There are two types of exceptions and those are:
+1) Checked exceptions[except runtime exception all the exceptions]
+2) Uncheked exceptions [all the classes and sub-classes of runtime exception and errors classes]
+
+There are two form of Assertion and those are:
+1) Simple form
+2) Augmented form
+
+There are two types of for loop in Java and those are:
+1) Conventional for loop.
+2) Enhanced for loop. [for each loop]
+
+There are two interfaces use to sort among the collection objects and those are: /*Class-51*/
+1) Comparable interface
+2) Comparator interface
+
+Generics provide two privilege and those are:
+1) compile time type safety
+2) no need of explicity casting
+
+There are two types of WildCards and those are: /*Class-55*/
+1) Unbounder wildcard
+2) Bound wildcard 
+
+There are two types of Bound WildCards and those are:
+1) Upper bound wild card
+2) Lower bound wild card
+
+Advantages of java multi threading:
+1) It doesn't block the user because threads are independent and you can perform multiple operations at same time
+2) You can perform many operations together so it saves time
+3) Threads are independent so it doesn't affect other threads if exception occur in a single thread
+
+There are two types of multitasking and those are:
+1) Process-based multitasking
+2) Thread-based multitasking
+
+There are two ways to create a thread: 
+1) By extending Thread class
+2) By implementing Runnable interface
+
+
+>| Java has automatic garbage collection, therefore, no need to remove unreferenced objects.
+>| JVM converts the source code into a binary class file. Hence, that binary file can be executed by any machine like windows, linux, macos etc.
+>| If a method is static then we can call it as given formate: class.method()
+>| Instance variables are also called as object variable.
+>| Local variables must need to be initialized. Instance variables are initialized with it's default value.
+>| If we declare a variable within a static method then it will be static by default.
+>| We can't declare a static variable inside a non-static method.
+>| If there is a method exists which name is the same as class name then it is called Constructor. Constructor is a one kind of method. It's speciallity is it has no return type. 
+>| Final variable can be initialized only one time.
+>| Static variables are related with class loading. Hence, static variables are initialized once when the class is loaded.
+>| Non-static variables are also called instance variable or object variable because these are the variables which are always initialized at the object creation time.
+>| Char stays within single quotes and Strings stays within double quotes.
+>| There is no need to use of access for the local variables.
+>| There is no default value for local variable and these are stored in stack memory.
+>| Right shift and Zero field right shift both produce same result for positive values.
+>| Generally we can access static methods using "class_name.method()". There is an another way to access an static value and that is static import. That means, first we will import that method as static. In this case, "*" helps to access all the methods and variables.
+>| while we're declaring an multidimentional array that time we must initialize the row number. We can initialize the column number later or initialize at the same statement.
+>| If one file contains more than one class then the file name should be the same as class which one is public. It also ilustrates that one source file can contain only one public class.
+>| Global variables are also called field variable.
+>| If a decalred constructor doesn't contain any parameter then it's called no-argument constructor.
+>| One class can contain more than one constructor.
+>| Default value of any class type variable is null.
+>| Mutator method: those methods whose changes the default value of field variable.
+>| We can't use "this" inside a static method. We can use "this" only inside a non-static method.
+>| Primitive type argument pass by value and Class type argument pass by reference. /* class-15*/
+>| There is no pointer concept in java. But we can see NullPointerException because java is based on C & C++ and hence the naming convention retain like that, nothing else.
+>| In java, one child class can inherit only one child class.
+>| Java support single inheritance only to avoid ambiguous problem.
+>| If we need to initialize the super class's instances from child class and pass some values then we should do that at the first line of the constructor. "super" needs to  be at the first line of the child's constructor.
+>| Override and overloading features are called polymorphism.
+>| When we don't mention any access modifier(public or protected or private) then it's default.
+>| During overloading, we can't give more protection to subclass's method rather than super class. But we can give less restriction to sub class rather than super class.
+>| Covariant returns possible only when there is an inheritance relation exists between two classes.
+>| /*class-17*/-confusion exists in code.
+>| In String operation, '==' operator checks object reference and 'equals()' check the values./*class-18*/
+>| String is immutable and StringBuffer is mutable.
+>| StringBuffer gives a better result than StringBuilder during multi-threaded time.
+>| Every primitive type has a look a like class and that class is called rapper class.
+>| Objetct type casting is possible only when there is a relationship between those two classes.
+>| If we cast a primitive data type to it's wrapper class then it is called Boxing. The opposite thing is called unboxing. Boxing and unboxing is called Autoboxing together. /*Class-23*/
+>| "equals()" returns true/false & on the other hand, compareTo() method returns integer value. /*Class-23*/
+>| If we use "final" keyword for any class that means we can't create any subclass of that class. /*Class-23*/
+>| All of the wrapper class are final. /*Class-23*/
+>| There is no body part of any method inside an interface. /*class-24*/
+>| One class can use multiple interface and we use "implements" keyword to connect with class. /*class-24*/
+>| If we connect an interface with a class then we must have to override the interface's all the methods.
+>| If we use "abstract" with a method then that method must haven't any body part. /*class-24*/
+>| Interface also makes "IS_A" relationship. /*class-24*/
+>| Within an interface every method is "public and abstract" and variables are "public, static and final". /*class-24*/
+>| One interface can extend another interface. /*class-24*/
+>| One interface can extend multiple interface. /*class-24*/
+>| One class can implement multiple interface and it won't make any ambiguity problem because all of the methods within Interfaces are abstract. /*class-24*/
+>| An abstract class also can implement interfaces and there overriding interface's method is not mendatory. /*class-24*/
+>| We can't make any object of any abstract class and interface. /*class-24*/
+>| We can declare an interface with zero variables and methods.Those interfaces are called marker interface. /*class-24*/
+>| Inner class can access any of the outer class's variable or object directly but outer class needs to create object of the inner class to use it's properties. /*class-26/
+>| Local inner class can't be invoked from the outside of that particular method.
+>| If a local class wants to use a local variable then that variable must be final.
+>| Static nested class can't access outer non-static class.
+>| Nested interface is by default public and static.
+>| We can declare an abstract method only when the class is abstract. /*Class-27*/
+>| An abstract class can contain both abstract and non-abstract method at a time. This is the main difference between interface and abstract method. Interface can contain only abstract method only. /*Class-27*/
+>| An abstract class can contain variables, methods or other class's object but we can't create object of an abstract class. /*Class-27*/
+>| Thread means the smallest unit of code which does a definite task. For every single thread there is a block created inside the stack memory. /*Class-28*/
+>| If stack memory become full then we will face an error called "StackOverFlowError". /*Class-28*/
+>| If heap memory become full thene we will face an error called "OutOfMemoryError". /*Class-28*/
+>| To manage string there is an memory section created in heap memory called String Pool. /*Class-28*/
+>| When a class doesn't extend any class then it extends object class internally. /*Class-31*/
+>| "toString()" tries to give a representation of an object's String. /*Class-31*/
+>| An enum is a data type which contains fixed set of constants. /*Class-32*/
+>| The enum constants are static and final implicitely. /*Class-32*/
+>| Enum improves type safety, can have fields, constructors and methods. /*Class-32*/
+>| Enum may implement many interfaces but cannot extend any class because it internally extend Enum class. /*Class-32*/
+>| Enum can be defined within or outside the class because it is similar to a class. Enum can't be declared within a method. /*Class-32*/
+>| Constructor of enum is implicitly private. Therefore, we can't create any object of enum directly /*Class-32*/
+>| When a class has private constructor that is called SingleTon pattern.SingleTon patterns ensures that only one object can be create of that class. /*Class-37*/
+>| When we want to have a class with al constants or all of the methods and variables are static defined then it doesn't require its instance any more. then we delcare that class as a private constructor (SingleTon class). /*Class-37*/
+>| SingleTon pattern doesn't allow the class to be subClass. /*Class-37*/
+>| Any constructor can't be static because it is related with object creation. /*Class-38*/
+>| Java exception handling is managed by via five keywords: try, catch, throw, throws, finally. /*Class-39*/
+>| Finally always executes whether there is an exception or not. It must be at last of all catch block. If there is no catch block with a try block then finally must be there. /*Class-39*/
+>| "throws" keyword uses after the method signature and "throw" keyword uses inside the method. /*Class-42*/
+>| If we use throw inside a method then we must use try, catch to call that method and that process is called propagation. /*Class-42*/
+>| We can only throw uncheked exceptions with "throw" keyword. If we want to use checked exception with "throw" keyword then we must use the "throws" keyword with method's signature /*Class-42*/
+>| Custom exceptions will be generally checked exception. /*Class-42*/
+>| We can't throw multiple exception but we can throws multiple exceptions. /*Class-42*/
+>| Handling exception any stage of that exception is called exception propagation. /*Class-43*/
+>| If super class doesn't throws any exception, still sub-class's method can throws unchecked exceptions but can't checked exceptions. [more details inside the code] /*Class-44*/
+>| In assertion we check a boolean condition and if the condition returns true then the rest of the programs runs but if the condition returns false then the condition terminates there. Generally assertion remains hide and to show this we need to use "-ea"(enable assertion) while we run the class file. /*Class-45*/
+>| List allows duplicate value but set doesn't. /*Class-47*/
+>| TreeSet is by default sorted. /*Class-47*/
+>| ***Note from Video*** /*Class-47*/
+>| Stream is related with stream. For reading source, for writing destination and these source and destination is called stream /*Class-59*/
+>| Those interface which has no method is known as marker interface. These interfaces basically give an information to JVM. /*Class-62*/
+>| Java supports multithreading /*Class-66*/
+>| We can connect one PC to another with port and host. port is basically a 16 bit binary number. In this list 0-1024 are reserved port numbers. /*class-73*/
+
