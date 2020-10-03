@@ -18,6 +18,7 @@ class Employee{
         return "Id is " + employeeId + " and Name is " + name;
     }
 }
+
 public class Manager extends Employee{
     public String department;
     

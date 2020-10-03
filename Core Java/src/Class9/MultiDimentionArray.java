@@ -1,20 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Class9;
 
-/**
- *
- * @author WALTON
- */
 public class MultiDimentionArray {
     
     public static void main(String[]args){
         
         /*
-        while we're declaring an multidimentional array that time we must
+        while we're declaring a multidimentional array that time we must
         initialize the row number. We can initialize the column number later or
         initialize at the same statement.
         */
