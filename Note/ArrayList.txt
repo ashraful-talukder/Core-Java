@@ -1,5 +1,0 @@
->| This is generally termed as the growable array.
->| This gives you faster iteration and faster random access.
->| This is an ordered list(ordered by index position) but not sorted.
->| This also implements the marker interface (i.e) RandomAccess interface [marker interface means interface that doesn't have any method].
->| This is preferred to use when you need faster iteration and you don't need lots of insertion or deletion.

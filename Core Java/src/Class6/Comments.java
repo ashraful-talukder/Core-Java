@@ -1,14 +1,5 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package Class6;
 
-/**
- *
- * @author WALTON
- */
 public class Comments {
     
     /*
@@ -20,7 +11,7 @@ public class Comments {
     */
     
     /**
-     * This is a method of sum up two integer values.
+     * This is a method to sum up two integer values.
      * @param x this is the first parameter
      * @param y this is the second parameter
      * @return it returns the sum of the two parameters
