@@ -23,8 +23,8 @@ public class Wrapper {
         Float f2 = new Float("20.43f");
         Float f3 = new Float(2.25f);
         
-        System.out.println("Comparing suing compare f1 and f2: " + Float.compare(f1, f2));
-        System.out.println("Comparing suing compare f1 and f2: " + Float.compare(f1, f3));
+        System.out.println("Comparing using compare f1 and f2: " + Float.compare(f1, f2));
+        System.out.println("Comparing using compare f1 and f2: " + Float.compare(f1, f3));
         
         /*
         Addition of Integer with Float
